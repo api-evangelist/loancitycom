@@ -1,4 +1,16 @@
 aid: loancitycom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loancitycom.png
 name: LoanCity.com
 description: LoanCity.com is a company surfaced as a portfolio company of insight-partners and added to
   the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -12,7 +24,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-website: https://loancity.com
+x-website-note: loancity.com is a defunct wholesale-mortgage brand; the domain 301-redirects
+  to https://www.westernbancorp.com/ (redirect target unreachable at probe time). No live
+  developer portal, API, SDK, or specification surface exists.
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 tags:
 - Company
 apis: []
